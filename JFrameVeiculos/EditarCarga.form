@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="bLimpar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="408" max="32767" attributes="0"/>
+              <Component id="bSalvarContinuar" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="cxPlaca" pref="200" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cxMarca" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="rotModelo" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="rotCor" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="cxCor" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="cxModelo" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="rotRodas" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="rotMarca" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="cxRodas" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="rotPlaca" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="rotPotencia" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="cxPotencia" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="rotVelocidade" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="cxVelocidade" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="rotPistoes" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="cxPistoes" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="rotData" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="cxData" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="cxTara" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="rotTara" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="cxCargaMax" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="rotNome" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+              <Component id="Sair" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="Sair" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rotPotencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rotPlaca" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cxPlaca" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cxPotencia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="rotMarca" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="rotVelocidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cxMarca" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cxVelocidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rotModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rotPistoes" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cxPistoes" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cxModelo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rotCor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rotData" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cxCor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cxData" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rotRodas" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cxRodas" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rotTara" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cxTara" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="rotNome" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cxCargaMax" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="32" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="bSalvarContinuar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="bLimpar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bLimparMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bSalvarContinuar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salvar e Voltar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bSalvarContinuarMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bSalvarContinuarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Sair">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sair"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SairActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotMarca">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Marca(txt)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxCor">
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotCor">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cor(txt)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxPotencia">
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotData">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Data Cadastro(txt)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxVelocidade">
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotVelocidade">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Velocidade Max(int)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxPistoes">
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotPistoes">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Qtd. Pistoes(int)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxData">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cxDataActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotPotencia">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Potencia Motor(int)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxRodas">
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotRodas">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Qtd. Rodas(int)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotNome">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Carga Max(int)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxPlaca">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxCargaMax">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cxCargaMaxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotPlaca">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Placa(txt)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTara">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxModelo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotTara">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tara(int)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotModelo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Modelo(txt)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxMarca">
+    </Component>
+  </SubComponents>
+</Form>
